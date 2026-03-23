@@ -4,11 +4,8 @@
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    background-color: gold;
+    background-color: crimson;
 }
 
 .container {
@@ -17,8 +14,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 50em;
     gap: 1em;
-    margin: 50px;
+    margin: 0 auto;
     padding: 5em;
     border-radius: 2em;
     border: 2px solid black;
@@ -26,6 +24,15 @@ body {
 
 .container > img {
     max-width: 10em;
+    width: 10em;
     border-radius: 50%;
     border: 2px solid black;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
 }
